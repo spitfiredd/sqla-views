@@ -30,8 +30,8 @@ steps:
   displayName: 'Run tests'
 - script: |
     echo $(HELLO)
-    echo $(HELLO2)
-    echo baz
+    echo $(Build.BuildNumber)
+    echo $(Build.SourceVersion)
   displayName: 'Testing Vars'
 - script: |
     pip install twine
