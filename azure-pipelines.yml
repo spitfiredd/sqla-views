@@ -21,5 +21,7 @@ steps:
 - script: |
     pip install -r dev-reqs.txt
   displayName: 'Install dev prerequisites'
-- script: pytest
+- script: |
+    pytest tests/views_tests.py
+    pytest tests/materialized_views_tests.py
   displayName: 'Run tests'

@@ -29,6 +29,7 @@ def test_drop_view_no_cascade_query_string():
     view_string = str(view.compile())
     assert view_string == 'DROP VIEW IF EXISTS my_view'
 
+
 def test_drop_view_no_cascade_no_if_exists_query_string():
     view = DropView('my_view', cascade=False, if_exists=False)
     view_string = str(view.compile())
