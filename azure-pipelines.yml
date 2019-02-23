@@ -29,5 +29,5 @@ steps:
     pytest tests/materialized_views_tests.py
   displayName: 'Run tests'
 - script: |
-    echo $HELLO
+    echo $(HELLO)
   displayName: 'Testing Vars'
