@@ -12,7 +12,6 @@ data/
 
 # text/excel files
 *.csv
-*.txt
 *.xlsx
 *.xls
 *.tsv
