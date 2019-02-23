@@ -16,8 +16,10 @@ steps:
     architecture: 'x64'
 - script: |
     python -m pip install --upgrade pip
-    cd sqla-views
-    pip install -r requirements.txt
-    pip install -r dev-requirements.txt
+    pwd
+    ls -a
+    # cd sqla-views
+    # pip install -r requirements.txt
+    # pip install -r dev-requirements.txt
     python -V
   displayName: 'Setup via requirements files.'
