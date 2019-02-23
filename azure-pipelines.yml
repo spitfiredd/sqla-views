@@ -31,4 +31,5 @@ steps:
 - script: |
     echo $(HELLO)
     echo $(HELLO2)
+    echo baz
   displayName: 'Testing Vars'
