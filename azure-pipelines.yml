@@ -30,4 +30,5 @@ steps:
   displayName: 'Run tests'
 - script: |
     echo $(HELLO)
+    echo $(HELLO2)
   displayName: 'Testing Vars'
