@@ -33,3 +33,7 @@ steps:
     echo $(HELLO2)
     echo baz
   displayName: 'Testing Vars'
+- script: |
+    pip install twine
+    python setup.py sdist
+  displayName: 'Test Build pkg'
