@@ -15,6 +15,9 @@ steps:
     versionSpec: '3.7'
     architecture: 'x64'
 - script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    pip install -r dev-requirements.txt
     echo Hello, world!
     python -V
-  displayName: 'Get Python Version Test'
+  displayName: 'Setup via requirements files.'
