@@ -58,7 +58,7 @@ class CleanCommand(Command):
 
 setup(
     name='sqla-views',
-    version='0.1',
+    version='0.1.0',
     packages=find_packages(),
     url='https://github.com/spitfiredd/sqla-views.git',
     author='Daniel Donovan',
